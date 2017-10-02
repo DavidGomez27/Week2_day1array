@@ -25,7 +25,7 @@ namespace Week2_Day1Arrays
 
             //int[] childrenAge = { 7, 12, 1 };
             //Console.WriteLine(childrenAge[2]);
-            
+
             //decimal[] gpaScore = { 1.2m, 2.3m, 1.8m, 4.0m, 3.2m, 3.8m, 2.9m, 3.9m };
             //Console.WriteLine(gpaScore[6]);
 
@@ -39,8 +39,44 @@ namespace Week2_Day1Arrays
 
 
             //declaring an empty array
-            int[] numbers = new int[4];
-            numbers[0] = 43; 
+            //int[] numbers = new int[4];
+            //numbers[0] = 43; //will add 43 to the first("0") element
+
+
+            //int[] numbers = new int[4];
+            //numbers[0] = 43;
+            //numbers[1] = 12;
+            //Console.WriteLine("Please enter a number");
+            //numbers[2] = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Please enter a number");
+            //numbers[3] = int.Parse(Console.ReadLine());
+
+
+            //Console.WriteLine(numbers[3]);
+
+
+            string[] daysOfWeek = new string[7];
+            daysOfWeek[0] = "Monday";
+            daysOfWeek[1] = "Tuesday";
+            daysOfWeek[2] = "Wednesday";
+            daysOfWeek[3] = "Thurday";
+            daysOfWeek[4] = "Friday";
+            daysOfWeek[5] = "Saturday";
+            daysOfWeek[6] = "Sunday";
+
+            Console.WriteLine(daysOfWeek[4]);
+
+            int[] studentAges = new int[5];
+            studentAges[0] = 12;
+            studentAges[1] = 11;
+            studentAges[2] = 6;
+            studentAges[3] = 16;
+            studentAges[4] = 18;
+
+            Console.WriteLine(studentAges[2]);
+
+
+
 
 
 
