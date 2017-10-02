@@ -55,25 +55,45 @@ namespace Week2_Day1Arrays
             //Console.WriteLine(numbers[3]);
 
 
-            string[] daysOfWeek = new string[7];
-            daysOfWeek[0] = "Monday";
-            daysOfWeek[1] = "Tuesday";
-            daysOfWeek[2] = "Wednesday";
-            daysOfWeek[3] = "Thurday";
-            daysOfWeek[4] = "Friday";
-            daysOfWeek[5] = "Saturday";
-            daysOfWeek[6] = "Sunday";
+            //string[] daysOfWeek = new string[7];
+            //daysOfWeek[0] = "Monday";
+            //daysOfWeek[1] = "Tuesday";
+            //daysOfWeek[2] = "Wednesday";
+            //daysOfWeek[3] = "Thurday";
+            //daysOfWeek[4] = "Friday";
+            //daysOfWeek[5] = "Saturday";
+            //daysOfWeek[6] = "Sunday";
 
-            Console.WriteLine(daysOfWeek[4]);
+            //Console.WriteLine(daysOfWeek[4]);
 
-            int[] studentAges = new int[5];
-            studentAges[0] = 12;
-            studentAges[1] = 11;
-            studentAges[2] = 6;
-            studentAges[3] = 16;
-            studentAges[4] = 18;
+            //int[] studentAges = new int[5];
+            //studentAges[0] = 12;
+            //studentAges[1] = 11;
+            //studentAges[2] = 6;
+            //studentAges[3] = 16;
+            //studentAges[4] = 18;
 
-            Console.WriteLine(studentAges[2]);
+            //Console.WriteLine(studentAges[2]);
+
+            //Console.WriteLine(daysOfWeek.Length);
+
+
+            //char[] lastName = { 'G', 'O', 'M', 'E', 'Z' };
+
+            //Console.WriteLine(lastName.Length);
+
+            //string[] example = { "This", "is", "an", "example" };
+            //int index = example.Length;
+            //int indexMinusTwo = index - 2;
+
+            //Console.WriteLine(example[indexMinusTwo]);
+
+
+            string[] example = { "This", "is", "an", "example" };
+            Console.WriteLine("This is the last index " + (example.Length - 1));
+
+
+
 
 
 
